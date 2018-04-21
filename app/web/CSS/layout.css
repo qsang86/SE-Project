@@ -1,0 +1,196 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 7, 2017, 12:00:53 AM
+    Author     : Keng Yew
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+    border:0px;
+    
+}
+div.tab{
+    height: 100%;
+    width:217px;
+    float: left;
+    background-color: #660066;
+    position: fixed;
+}
+#header{
+    height:60px;
+    width:100%;
+    background-color:grey; 
+    position: absolute;
+}
+
+/* ====================================================DROPDOWN========================================*/
+.dropbtn {
+    background-color: grey;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #666666;
+}
+
+.dropbtn:focus .downArrow {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: right;
+    right: 50px;
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 16px;
+}
+
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+
+
+/*=====================================================================================*/
+
+/* =========================================SIDE TAB=================================== */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 217px;
+    /*background-color: #f1f1f1;*/
+
+    /*height: 100%;*/
+    overflow: auto;
+    color: white;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-bottom: 0.5px solid;
+    border-bottom-color: #006666;
+    font-family: arial;
+    font-size: 13px;
+}
+
+/*li a.active {
+    background-color: #4CAF50;
+    color: white;
+}*/
+
+li a:hover:not(.active) {
+    background-color: #330066;
+    color: white;
+}
+
+.droptab {
+    cursor: pointer;
+}
+
+.dropdown2 {
+    position: relative;
+}
+
+.dropdown-content2 {
+    display: none;
+    position: relative;
+    background-color: #660066;
+    min-width: 217px; 
+}
+
+.dropdown-content2 a {
+    color: white;
+    font-size: 13px;
+    font-family: arial;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 0.5px solid;
+    border-bottom-color: #006666;
+}
+
+.dropdown-content2 a:hover {background-color: #330066}
+
+.dropdown2:focus .dropdown-content2 {
+    display: block;
+}
+
+.dropdown2:hover {
+    background-color: #3e8e41;
+}
+
+.show {display:block;}
+
+/* =========================================================================================== */
+
+.container{
+    height: 85%;
+    width: 100%;
+    top: 60px;
+    left:217px;
+    position: absolute;
+}
+
+.container2{
+    position: absolute;
+    top:2px;
+    left:30px;
+    margin: 0px;
+}
+
+i {
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.downArrow {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.droptab:focus .downArrow{
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);    
+}
+
+
+ 
+
+
+
