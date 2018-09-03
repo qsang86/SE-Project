@@ -1,1 +1,1 @@
-# SE Project
+# Soft Engineering Project
