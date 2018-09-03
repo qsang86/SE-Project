@@ -1,1 +1,1 @@
-# Soft Engineering Project
+# Software Engineering Project
